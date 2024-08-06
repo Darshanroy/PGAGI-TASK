@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Poetry: Uvicorn",
+      "type": "python",
+      "request": "launch",
+      "module": "poetry",
+      "args": [
+        "run",
+        "uvicorn",
+        "main:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "4000",
+        "--reload"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "cwd": "${workspaceFolder}/apps/server"
+    },
+    {
+      "name": "Python: Test",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/test.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "cwd": "${workspaceFolder}/apps/server"
+    }
+  ]
+}

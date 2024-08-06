@@ -1,0 +1,6 @@
+{
+  "projectManager.git.baseFolders": ["workspace"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
